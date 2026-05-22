@@ -1,16 +1,67 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, animated Tic Tac Toe game built with React and Vite. Play locally with two players, track the current turn, highlight the winning line, and reset anytime.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Two-player local gameplay (X and O)
+- Winner detection with highlighted winning line
+- Draw detection
+- Reset button to restart the game
+- Responsive layout with subtle animations
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- Vanilla CSS
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies and start the dev server.
+
+### Using pnpm
+
+```bash
+pnpm install
+pnpm dev
+```
+
+### Using npm
+
+```bash
+npm install
+npm run dev
+```
+
+### Using yarn
+
+```bash
+yarn install
+yarn dev
+```
+
+## Scripts
+
+- `dev` - start the development server
+- `build` - create a production build
+- `preview` - preview the production build
+- `lint` - run ESLint
+
+## Project Structure
+
+```
+src/
+	App.jsx
+	components/
+		Board.jsx
+		Square.jsx
+		Status.jsx
+	styles/
+		game.css
+	index.css
+```
+
+## Credits
+
+Built with React and Vite.
